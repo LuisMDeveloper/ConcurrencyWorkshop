@@ -12,16 +12,25 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+        super.viewDidLoad()
+
+        //let concurrentQueue = DispatchQueue(label: "cqueue.hoffman.jon", attributes: .concurrent)
+        //let serialQueue = DispatchQueue(label: "squeue.hoffman.jon")
+
+        let cqueue = DispatchQueue(label: "cqueue.hoffman.jon", attributes: .concurrent)
+        let calculation = DoCalculations()
+
+        cqueue.async {
+            calculation.performCalculation(iterations: 10000000, tag: "async1")
+        }
+
+        cqueue.async {
+            calculation.performCalculation(iterations: 1000, tag: "async2")
+        }
+
+        cqueue.async {
+            calculation.performCalculation(iterations: 100000, tag: "async3")
+        }
     }
-
-
-    override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-    }
-
-
 
 }

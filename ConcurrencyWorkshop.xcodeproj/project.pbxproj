@@ -11,6 +11,7 @@
 		8A9A159732CD0FD23DE3F3E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A1A51A8752A515432ED6B /* ViewController.swift */; };
 		8A9A186EE4BF0F23924CDCA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A103BA4A5452DDEB2E5C9 /* AppDelegate.swift */; };
 		8A9A1EBD0846AF62FD00BD63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9A1D9163D098977533D1AB /* LaunchScreen.storyboard */; };
+		8A9A1F4882CC4C25334F22B1 /* DoCalculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A1D7F6BAE3BC3A00AB7D2 /* DoCalculations.swift */; };
 		8A9A1FBF344427DDF75971C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9A18012330988A0EBAEF77 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +22,7 @@
 		8A9A18C06C13DDC6250CB851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A9A19A8BFD918F76DB3E40C /* ConcurrencyWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcurrencyWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9A1A51A8752A515432ED6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A9A1D7F6BAE3BC3A00AB7D2 /* DoCalculations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoCalculations.swift; sourceTree = "<group>"; };
 		8A9A1EF76B06AADAE6CAD13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 				8A9A103BA4A5452DDEB2E5C9 /* AppDelegate.swift */,
 				8A9A13812D099DBAB987221D /* Main.storyboard */,
 				8A9A1A51A8752A515432ED6B /* ViewController.swift */,
+				8A9A1D7F6BAE3BC3A00AB7D2 /* DoCalculations.swift */,
 			);
 			path = ConcurrencyWorkshop;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			files = (
 				8A9A186EE4BF0F23924CDCA7 /* AppDelegate.swift in Sources */,
 				8A9A159732CD0FD23DE3F3E3 /* ViewController.swift in Sources */,
+				8A9A1F4882CC4C25334F22B1 /* DoCalculations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
